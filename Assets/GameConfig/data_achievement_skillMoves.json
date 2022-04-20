@@ -1,0 +1,15 @@
+{
+	"data":[
+		{"id" : 1, "skill_num" : 5, "percent" : 30},
+		{"id" : 2, "skill_num" : 6, "percent" : 27},
+		{"id" : 3, "skill_num" : 7, "percent" : 24},
+		{"id" : 4, "skill_num" : 8, "percent" : 21},
+		{"id" : 5, "skill_num" : 9, "percent" : 18},
+		{"id" : 6, "skill_num" : 10, "percent" : 15},
+		{"id" : 7, "skill_num" : 11, "percent" : 12},
+		{"id" : 8, "skill_num" : 12, "percent" : 9},
+		{"id" : 9, "skill_num" : 13, "percent" : 6},
+		{"id" : 10, "skill_num" : 14, "percent" : 3},
+		{"id" : 11, "skill_num" : 15, "percent" : 1}
+	]
+}

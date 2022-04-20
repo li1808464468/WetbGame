@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: NewBest_Scene2
+  m_EditorClassIdentifier: 
+  m_GroupName: NewBest_Scene2
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e4f739b0030474de8a2bdc99c3d50305
+  m_SerializeEntries:
+  - m_GUID: 299d467ac022a4fb48d5aaeae05aa609
+    m_Address: Prefabs_Scene2/NewBestEff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 644149802238478778, guid: 299d467ac022a4fb48d5aaeae05aa609,
+      type: 3}
+    m_TargetAsset: {fileID: 644149802238478778, guid: 299d467ac022a4fb48d5aaeae05aa609,
+      type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: aaf7d6f3e4e0d43e5bb100590ca142fc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: bec73aa8aed634c9ebe2aad21869c882, type: 2}
+    - {fileID: 11400000, guid: a433aa3e247bf4158ba600881e6d7e19, type: 2}

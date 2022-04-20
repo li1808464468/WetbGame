@@ -1,0 +1,322 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  m_GroupName: GameConfig
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ccd79d09634cd40a89266cfce537b506
+  m_SerializeEntries:
+  - m_GUID: 0e4a47771adaa46b4aa59271c62b4b39
+    m_Address: data_level_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0f53603e51e654f2db106a3d72ad5d2b
+    m_Address: data_length_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 155d8bcaf93474e218dc775bf34fcd59
+    m_Address: data_hangNumByScore
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 4900000, guid: 155d8bcaf93474e218dc775bf34fcd59, type: 3}
+    m_TargetAsset: {fileID: 4900000, guid: 155d8bcaf93474e218dc775bf34fcd59, type: 3}
+  - m_GUID: 182ce103f618b44259b31aee4427bfa7
+    m_Address: data_length_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1e220efebe85b4eb99d871d5cd0bbee4
+    m_Address: data_SP_D_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1f542f604fe7148989e66cca1d37b347
+    m_Address: data_SP_D_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 4900000, guid: 1f542f604fe7148989e66cca1d37b347, type: 3}
+    m_TargetAsset: {fileID: 4900000, guid: 1f542f604fe7148989e66cca1d37b347, type: 3}
+  - m_GUID: 2d40726d22c7e41d18c2ca9b8f241f38
+    m_Address: data_SPT_time
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2dbc80ed4c7f5477398afe5133eb1286
+    m_Address: data_length_all
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 301d832fa33394676865210b37373d8c
+    m_Address: data_length_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 4900000, guid: 301d832fa33394676865210b37373d8c, type: 3}
+    m_TargetAsset: {fileID: 4900000, guid: 301d832fa33394676865210b37373d8c, type: 3}
+  - m_GUID: 6c2c46b9669f94e2a9f9e8f1d434408f
+    m_Address: data_length_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6fd45ea9c2a9d4fe48459dc0f88caa37
+    m_Address: data_level_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 4900000, guid: 6fd45ea9c2a9d4fe48459dc0f88caa37, type: 3}
+    m_TargetAsset: {fileID: 4900000, guid: 6fd45ea9c2a9d4fe48459dc0f88caa37, type: 3}
+  - m_GUID: 70da1ee3df3a440cbb04145d930b1107
+    m_Address: data_level_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 71120c55f20274beaaed15ab89d385de
+    m_Address: data_length_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 785cb872a785444ad97efa230fcc19e5
+    m_Address: data_length_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 815dd318983e942de826a5a3a1662672
+    m_Address: data_length_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8529dbeebfc9c4f4081fdeef4e88b7a8
+    m_Address: data_unitScore
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 4900000, guid: 8529dbeebfc9c4f4081fdeef4e88b7a8, type: 3}
+    m_TargetAsset: {fileID: 4900000, guid: 8529dbeebfc9c4f4081fdeef4e88b7a8, type: 3}
+  - m_GUID: 8d430b58c50d24c0fb447605fb288f53
+    m_Address: data_achievement_dw
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8e3a261388a9147b0af70ca32d4b6639
+    m_Address: data_length_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 90d7da8658e134cb996e9a6f86054561
+    m_Address: data_achievement_skillMoves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 9a131675335154f829975b250bcbb8b9
+    m_Address: data_length_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ab0750fa8b4134f99abcb30946603286
+    m_Address: data_length_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: add9697f44db741a68fcf10e7366d2cf
+    m_Address: data_achievement_comboNumber
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: aefaa70e98dac412dbac56da8e9b211c
+    m_Address: data_SP_D_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b651f0c22eed047be9300b1893677203
+    m_Address: data_achievement_stepScore
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: bbbc259e1eaad458e812c9bd65187fd8
+    m_Address: data_length_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: bc004e61ba3e1486784f9c7da6f04995
+    m_Address: data_length_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: bd4a7a977fce94d82a603d86e5ed4861
+    m_Address: data_length_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c204bcafd3bad4bcb9d552681ce74f1b
+    m_Address: data_SP_D_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c51fded51d30e4518bf5280fd5f941b8
+    m_Address: data_achievement_iceNumber
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ebc53b18c86b748c79d3399cf1345617
+    m_Address: data_SPC_rate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 4900000, guid: ebc53b18c86b748c79d3399cf1345617, type: 3}
+    m_TargetAsset: {fileID: 4900000, guid: ebc53b18c86b748c79d3399cf1345617, type: 3}
+  - m_GUID: f8a299360e83c4fd9bdfba84dbc9b8da
+    m_Address: data_SP_D_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: fbdb64f17536a4edcbb39ec1a87eef82
+    m_Address: data_achievement_removeNumber
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: fe9a5f9c38ac34613afe9d36b8c16614
+    m_Address: data_length_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: aaf7d6f3e4e0d43e5bb100590ca142fc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 087300e96542e47c3b5b4ab480159a78, type: 2}
+    - {fileID: 11400000, guid: 8b2f12493a1d84bfc8c8c972a3834b07, type: 2}

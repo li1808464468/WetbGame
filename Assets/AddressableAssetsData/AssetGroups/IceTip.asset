@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: IceTip
+  m_EditorClassIdentifier: 
+  m_GroupName: IceTip
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 429fd4d81fae1471da2519fe2d6a0edc
+  m_SerializeEntries:
+  - m_GUID: 70a419e5d273041bcbe06f899c71d9aa
+    m_Address: IceTip
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 3988422638050640625, guid: 70a419e5d273041bcbe06f899c71d9aa,
+      type: 3}
+    m_TargetAsset: {fileID: 3988422638050640625, guid: 70a419e5d273041bcbe06f899c71d9aa,
+      type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: aaf7d6f3e4e0d43e5bb100590ca142fc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9315c000024c2422eb1646bc7beab374, type: 2}
+    - {fileID: 11400000, guid: 6640c486bf3c4490aa3d4b602059c30c, type: 2}

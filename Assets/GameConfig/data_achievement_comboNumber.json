@@ -1,0 +1,12 @@
+{
+	"data":[
+		{"id" : 1, "combo_num" : 4, "percent" : 20},
+		{"id" : 2, "combo_num" : 5, "percent" : 17},
+		{"id" : 3, "combo_num" : 6, "percent" : 14},
+		{"id" : 4, "combo_num" : 7, "percent" : 11},
+		{"id" : 5, "combo_num" : 8, "percent" : 8},
+		{"id" : 6, "combo_num" : 9, "percent" : 5},
+		{"id" : 7, "combo_num" : 10, "percent" : 2},
+		{"id" : 8, "combo_num" : 11, "percent" : 1}
+	]
+}

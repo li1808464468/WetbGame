@@ -1,0 +1,127 @@
+{
+  "json_id": "15deebd8-5e87-4cff-8d51-c12956db8c3d",
+  "autopilot_id": 10287,
+  "autopilot_name": "jewel-puzzle",
+  "autopilot_type": "app",
+  "topics": {
+    "topic-8a21ixizu": {
+      "topic_id": "topic-8a21ixizu",
+      "topic_name": "Shake",
+      "topic_type": "life_time",
+      "variations": {
+        "configs": {
+          "type": "string",
+          "strategy": "sole",
+          "value": "{\"ESID\":\"none_shake\",\"switchflag\":\"off\",\"remove\":{\"mode\":[0,25,0,0],\"repeat\":-1},\"combo\":{\"mode\":[0,25,0,0],\"repeat\":-1},\"special_gold\":{\"mode\":[0,1000,0,0],\"repeat\":-1},\"special_blue_select\":{\"mode\":[0,300,0,0],\"repeat\":-1},\"special_blue_split\":{\"mode\":[0,75,0,0],\"repeat\":-1}}",
+          "values": [
+            {
+              "value": "{\"ESID\":\"none_shake\",\"switchflag\":\"off\",\"remove\":{\"mode\":[0,25,0,0],\"repeat\":-1},\"combo\":{\"mode\":[0,25,0,0],\"repeat\":-1},\"special_gold\":{\"mode\":[0,1000,0,0],\"repeat\":-1},\"special_blue_select\":{\"mode\":[0,300,0,0],\"repeat\":-1},\"special_blue_split\":{\"mode\":[0,75,0,0],\"repeat\":-1}}"
+            }
+          ]
+        }
+      },
+      "events": [
+        {
+          "name": "test"
+        },
+        {
+          "name": "removeshake"
+        },
+        {
+          "name": "comboshake"
+        },
+        {
+          "name": "specialgoldshake"
+        },
+        {
+          "name": "specialblueselectshake"
+        },
+        {
+          "name": "specialbluesplitshake"
+        }
+      ],
+      "config_id": "rule-8a29msjxj"
+    }
+  },
+  "app_events": [
+    {
+      "name": "active"
+    },
+    {
+      "name": "ad_click__banner__ge"
+    },
+    {
+      "name": "ad_click__interstitial__ge"
+    },
+    {
+      "name": "ad_click__native__ge"
+    },
+    {
+      "name": "ad_click__rewarded_video__ge"
+    },
+    {
+      "name": "ad_click__splash__ge"
+    },
+    {
+      "name": "ad_show__banner__ge"
+    },
+    {
+      "name": "ad_show__customized__ge"
+    },
+    {
+      "name": "ad_show__interstitial__ge"
+    },
+    {
+      "name": "ad_show__native__ge"
+    },
+    {
+      "name": "ad_show__rewarded_video__ge"
+    },
+    {
+      "name": "ad_show__splash__ge"
+    },
+    {
+      "name": "cost"
+    },
+    {
+      "name": "cost_rmb"
+    },
+    {
+      "name": "earnings"
+    },
+    {
+      "name": "earnings_rmb"
+    },
+    {
+      "name": "get_remote_config"
+    },
+    {
+      "name": "main_app_close"
+    },
+    {
+      "name": "main_app_open"
+    },
+    {
+      "name": "pay_actual"
+    },
+    {
+      "name": "pay_actual_rmb"
+    },
+    {
+      "name": "pay_ought"
+    },
+    {
+      "name": "pay_ought_rmb"
+    }
+  ],
+  "user_behavior_app_events": [],
+  "other_app_events": [],
+  "custom_audience_properties": [],
+  "app_meta": {
+    "is_support_languages": false,
+    "session_end_delay": 10,
+    "remote_config_trigger_interval_secs": {
+      "cus_audience": 1
+    }
+  }
+}

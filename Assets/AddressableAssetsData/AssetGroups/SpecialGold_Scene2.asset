@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SpecialGold_Scene2
+  m_EditorClassIdentifier: 
+  m_GroupName: SpecialGold_Scene2
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ecf8475af713449f5ab04ae0b0de7331
+  m_SerializeEntries:
+  - m_GUID: 22d420455030744c0941588534f50ff7
+    m_Address: Prefabs_Scene2/SpecialGoldDialog
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 751519026628156675, guid: 22d420455030744c0941588534f50ff7,
+      type: 3}
+    m_TargetAsset: {fileID: 751519026628156675, guid: 22d420455030744c0941588534f50ff7,
+      type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: aaf7d6f3e4e0d43e5bb100590ca142fc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0e6c50bb6fd69439fb7a4828ec5eb14a, type: 2}
+    - {fileID: 11400000, guid: 82f32d36115eb4802ba377895133fd41, type: 2}

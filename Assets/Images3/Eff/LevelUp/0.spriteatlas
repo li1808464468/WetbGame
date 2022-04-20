@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 0
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 56
+      m_TextureCompression: 1
+      m_CompressionQuality: 0
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 1
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 34f4c916098774110818c2d82ee3ec18, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 16ee8d305cb8d45fba5e09b4bce45044, type: 3}
+  - {fileID: 21300000, guid: 09f6f350a63bc48fa911eefd65e49b3b, type: 3}
+  - {fileID: 21300000, guid: cdaa85c0f2d134244a61c1fd3b0015fb, type: 3}
+  - {fileID: 21300000, guid: f0f44e91d73cd4988a03f2c6a4e96222, type: 3}
+  - {fileID: 21300000, guid: b2a5c7327244e4434af91e5a844ce7dd, type: 3}
+  - {fileID: 21300000, guid: 52508e03dd2bf494daf833a736ee0b73, type: 3}
+  - {fileID: 21300000, guid: 61661a2467df0405e8e637012ada715e, type: 3}
+  - {fileID: 21300000, guid: 691615a4e1d85404cbc45aada996c0c3, type: 3}
+  - {fileID: 21300000, guid: 7135e2663c5994e5590338157dddb29e, type: 3}
+  - {fileID: 21300000, guid: a06107c704954478ca1e810b79904cb1, type: 3}
+  - {fileID: 21300000, guid: 6c69c509d49b747d086caa5c630fd18c, type: 3}
+  - {fileID: 21300000, guid: e53897ed933c74c33a21fefb5eee8189, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - level-up
+  - 9
+  - 0
+  - 4
+  - HD1
+  - 6
+  - 3
+  - 5
+  - 8
+  - 7
+  - 1
+  - 2
+  m_Tag: 0
+  m_IsVariant: 0

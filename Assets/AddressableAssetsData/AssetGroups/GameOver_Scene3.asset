@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GameOver_Scene3
+  m_EditorClassIdentifier: 
+  m_GroupName: GameOver_Scene3
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5900760acf1584c70a65a73950ea9928
+  m_SerializeEntries:
+  - m_GUID: 732faf0689cd94f2e9de08acec9f36af
+    m_Address: man_mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 2100000, guid: 732faf0689cd94f2e9de08acec9f36af, type: 2}
+    m_TargetAsset: {fileID: 2100000, guid: 732faf0689cd94f2e9de08acec9f36af, type: 2}
+  - m_GUID: a1cfbb75fcf1f42e88f9e75c0adaa1ba
+    m_Address: man_sket
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: Spine.Unity.SkeletonDataAsset, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 11400000, guid: a1cfbb75fcf1f42e88f9e75c0adaa1ba, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: a1cfbb75fcf1f42e88f9e75c0adaa1ba, type: 2}
+  - m_GUID: bcd4ef2fecb5244e191fb7e5bcfd7fc6
+    m_Address: man
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 2478142546469656738, guid: bcd4ef2fecb5244e191fb7e5bcfd7fc6,
+      type: 3}
+    m_TargetAsset: {fileID: 2478142546469656738, guid: bcd4ef2fecb5244e191fb7e5bcfd7fc6,
+      type: 3}
+  - m_GUID: e224981b64a574e578350db2f9cf08c0
+    m_Address: Prefabs_Scene3/GameOverDialog
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 8290577609464530727, guid: e224981b64a574e578350db2f9cf08c0,
+      type: 3}
+    m_TargetAsset: {fileID: 8290577609464530727, guid: e224981b64a574e578350db2f9cf08c0,
+      type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: aaf7d6f3e4e0d43e5bb100590ca142fc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 355eddd30c8f0416b88c0eb9783d0acd, type: 2}
+    - {fileID: 11400000, guid: 9dfbdd254cb1e4cfe968d84e21d2f3ff, type: 2}

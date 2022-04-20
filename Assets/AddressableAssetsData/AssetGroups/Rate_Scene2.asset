@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Rate_Scene2
+  m_EditorClassIdentifier: 
+  m_GroupName: Rate_Scene2
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ae108fb7c6ca142cba5a29d986411583
+  m_SerializeEntries:
+  - m_GUID: e29c433525ff245b5b1e26307b19d4a6
+    m_Address: Prefabs_Scene2/RateDialog
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 8290577609464530727, guid: e29c433525ff245b5b1e26307b19d4a6,
+      type: 3}
+    m_TargetAsset: {fileID: 8290577609464530727, guid: e29c433525ff245b5b1e26307b19d4a6,
+      type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: aaf7d6f3e4e0d43e5bb100590ca142fc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5d02327244d1b4d4dbb994d2b65fb5b9, type: 2}
+    - {fileID: 11400000, guid: 9d20c6887f78c420db833c5f9f17b713, type: 2}

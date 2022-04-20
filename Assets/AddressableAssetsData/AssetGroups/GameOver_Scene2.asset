@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GameOver_Scene2
+  m_EditorClassIdentifier: 
+  m_GroupName: GameOver_Scene2
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a1e7342ced1454b2b9275c313d1309e9
+  m_SerializeEntries:
+  - m_GUID: 6c7d3b50126ca4729b2aa2a0c685b842
+    m_Address: Prefabs_Scene2/GameOverDialogA
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 8290577609464530727, guid: 6c7d3b50126ca4729b2aa2a0c685b842,
+      type: 3}
+    m_TargetAsset: {fileID: 8290577609464530727, guid: 6c7d3b50126ca4729b2aa2a0c685b842,
+      type: 3}
+  - m_GUID: 87071bc4a92c14a3ab793142598880af
+    m_Address: Prefabs_Scene2/GameOverDogGroup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 4228918701746064347, guid: 87071bc4a92c14a3ab793142598880af,
+      type: 3}
+    m_TargetAsset: {fileID: 4228918701746064347, guid: 87071bc4a92c14a3ab793142598880af,
+      type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: aaf7d6f3e4e0d43e5bb100590ca142fc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 82007e98651404b9394b64772bdd377a, type: 2}
+    - {fileID: 11400000, guid: 0726e4bd3cb8d41998fc639fd5e514c7, type: 2}

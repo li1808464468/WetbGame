@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SpecialEff_Scene3
+  m_EditorClassIdentifier: 
+  m_GroupName: SpecialEff_Scene3
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d6381fa2f999e40a78463df00b44cdbe
+  m_SerializeEntries:
+  - m_GUID: 0fcd0a3c870f34728bece27ef5f061e4
+    m_Address: Images3/Eff/BlockSpecialMat/zhezhao3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_MainAsset: {fileID: 2100000, guid: 0fcd0a3c870f34728bece27ef5f061e4, type: 2}
+    m_TargetAsset: {fileID: 2100000, guid: 0fcd0a3c870f34728bece27ef5f061e4, type: 2}
+  - m_GUID: 51a567fe96a8f4047982649a7b9f63a2
+    m_Address: Images3/Eff/BlockSpecial
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_MainAsset: {fileID: 4343727234628468602, guid: 51a567fe96a8f4047982649a7b9f63a2,
+      type: 2}
+    m_TargetAsset: {fileID: 4343727234628468602, guid: 51a567fe96a8f4047982649a7b9f63a2,
+      type: 2}
+  - m_GUID: 5966f0d2ae00944459f3a2d498b0c78b
+    m_Address: Prefabs_Scene3/SpecialEffGold
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_MainAsset: {fileID: 1941476574537087465, guid: 5966f0d2ae00944459f3a2d498b0c78b,
+      type: 3}
+    m_TargetAsset: {fileID: 1941476574537087465, guid: 5966f0d2ae00944459f3a2d498b0c78b,
+      type: 3}
+  - m_GUID: 7d11c8ef652474ac69607393567d1e6b
+    m_Address: Prefabs_Scene3/ClearSpecialEffBronzeLine
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_MainAsset: {fileID: 3812979488292693619, guid: 7d11c8ef652474ac69607393567d1e6b,
+      type: 3}
+    m_TargetAsset: {fileID: 3812979488292693619, guid: 7d11c8ef652474ac69607393567d1e6b,
+      type: 3}
+  - m_GUID: 8b05f7ffaba304fe8930ead4e8a6c060
+    m_Address: Prefabs_Scene3/ClearSpecialEffGoldLine
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_MainAsset: {fileID: 2275314723621172401, guid: 8b05f7ffaba304fe8930ead4e8a6c060,
+      type: 3}
+    m_TargetAsset: {fileID: 2275314723621172401, guid: 8b05f7ffaba304fe8930ead4e8a6c060,
+      type: 3}
+  - m_GUID: 8f8e0c52690ad43b189d081c3d2d772e
+    m_Address: Images3/Eff/BlockSpecialMat/zhezhao2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 9528affd434c840cda10e2fe0b0ce0fa
+    m_Address: Prefabs_Scene3/ClearSpecialEffGold
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_MainAsset: {fileID: 7942661414289695331, guid: 9528affd434c840cda10e2fe0b0ce0fa,
+      type: 3}
+    m_TargetAsset: {fileID: 7942661414289695331, guid: 9528affd434c840cda10e2fe0b0ce0fa,
+      type: 3}
+  - m_GUID: 9a6a70b115229417f9ee067894863da6
+    m_Address: Images3/Eff/BlockSpecialMat/zhezhao1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_MainAsset: {fileID: 2100000, guid: 9a6a70b115229417f9ee067894863da6, type: 2}
+    m_TargetAsset: {fileID: 2100000, guid: 9a6a70b115229417f9ee067894863da6, type: 2}
+  - m_GUID: aa1dedadd6ab84701a058030a24e4ab2
+    m_Address: Images3/Eff/BlockSpecialMat/zhezhao4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d58be974004de4398940f15b3025dfa7
+    m_Address: Prefabs_Scene3/ClearSpecialEffBronze
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e7f4b210606a34dab99414afb869e353
+    m_Address: Prefabs_Scene3/SpecialEffBronze
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_MainAsset: {fileID: 5561580707379198498, guid: e7f4b210606a34dab99414afb869e353,
+      type: 3}
+    m_TargetAsset: {fileID: 5561580707379198498, guid: e7f4b210606a34dab99414afb869e353,
+      type: 3}
+  - m_GUID: 3bdee1cf5e59149e9907e997b50e4932
+    m_Address: Prefabs_Scene3/SpecialGoldDialog
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: aaf7d6f3e4e0d43e5bb100590ca142fc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 65a307b25de0e4fa3a5ff563f0ada282, type: 2}
+    - {fileID: 11400000, guid: f8f80dc1ae6fa451a898b54567f659de, type: 2}

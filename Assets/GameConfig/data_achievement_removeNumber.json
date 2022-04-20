@@ -1,0 +1,20 @@
+{
+	"data":[
+		{"id" : 1, "remove_num" : 80, "percent" : 30},
+		{"id" : 2, "remove_num" : 85, "percent" : 28},
+		{"id" : 3, "remove_num" : 90, "percent" : 26},
+		{"id" : 4, "remove_num" : 95, "percent" : 24},
+		{"id" : 5, "remove_num" : 100, "percent" : 22},
+		{"id" : 6, "remove_num" : 105, "percent" : 20},
+		{"id" : 7, "remove_num" : 110, "percent" : 18},
+		{"id" : 8, "remove_num" : 115, "percent" : 16},
+		{"id" : 9, "remove_num" : 120, "percent" : 14},
+		{"id" : 10, "remove_num" : 125, "percent" : 12},
+		{"id" : 11, "remove_num" : 130, "percent" : 10},
+		{"id" : 12, "remove_num" : 135, "percent" : 8},
+		{"id" : 13, "remove_num" : 140, "percent" : 6},
+		{"id" : 14, "remove_num" : 145, "percent" : 4},
+		{"id" : 15, "remove_num" : 150, "percent" : 2},
+		{"id" : 16, "remove_num" : 155, "percent" : 1}
+	]
+}

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Combo_Scene2
+  m_EditorClassIdentifier: 
+  m_GroupName: Combo_Scene2
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c54396689f45149298733811d199777f
+  m_SerializeEntries:
+  - m_GUID: 7613b6c59e2c74b518fe41f78f4e6d4b
+    m_Address: Images2/Eff/Combo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.U2D.SpriteAtlas, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 4343727234628468602, guid: 7613b6c59e2c74b518fe41f78f4e6d4b,
+      type: 2}
+    m_TargetAsset: {fileID: 4343727234628468602, guid: 7613b6c59e2c74b518fe41f78f4e6d4b,
+      type: 2}
+  - m_GUID: f6e2ea5a5fe4e4d4bbf3218048449bc7
+    m_Address: Prefabs_Scene2/ComboEff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 4182610483546808616, guid: f6e2ea5a5fe4e4d4bbf3218048449bc7,
+      type: 3}
+    m_TargetAsset: {fileID: 4182610483546808616, guid: f6e2ea5a5fe4e4d4bbf3218048449bc7,
+      type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: aaf7d6f3e4e0d43e5bb100590ca142fc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c9e3b881443384c818dd6bc45446adbc, type: 2}
+    - {fileID: 11400000, guid: dba2847442732473fa45caa3721d523d, type: 2}

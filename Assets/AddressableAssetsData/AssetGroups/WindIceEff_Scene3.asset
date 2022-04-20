@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: WindIceEff_Scene3
+  m_EditorClassIdentifier: 
+  m_GroupName: WindIceEff_Scene3
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2e4c7e45631ed4424bb40fc01879458c
+  m_SerializeEntries:
+  - m_GUID: 0399d8d0bb5d744d589c02d3e206eeb6
+    m_Address: Images3/Ice_K
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 2800000, guid: 0399d8d0bb5d744d589c02d3e206eeb6, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 0399d8d0bb5d744d589c02d3e206eeb6, type: 3}
+  - m_GUID: 1448d572d5f1646c5b515f1fe896a898
+    m_Address: Prefabs_Scene3/IceEff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 24d973708d103466f823080bd0c108d4
+    m_Address: Prefabs_Scene3/ToIceEff_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 48ea4f990c7194e728ac81e4ebf5358f
+    m_Address: Prefabs_Scene3/ToIceEff_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4b8cfec8f21d047309add26f3e36b731
+    m_Address: Prefabs_Scene3/ToIceEff_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 61727afd9c3284dbc86410def1270ba4
+    m_Address: Prefabs_Scene3/ToIceEff_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 7076974712135922406, guid: 61727afd9c3284dbc86410def1270ba4,
+      type: 3}
+    m_TargetAsset: {fileID: 7076974712135922406, guid: 61727afd9c3284dbc86410def1270ba4,
+      type: 3}
+  - m_GUID: 6d13a20d1635f422caee4d4f79b8cec1
+    m_Address: Images3/IceBlock/IceEffSprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.U2D.SpriteAtlas, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 4343727234628468602, guid: 6d13a20d1635f422caee4d4f79b8cec1,
+      type: 2}
+    m_TargetAsset: {fileID: 4343727234628468602, guid: 6d13a20d1635f422caee4d4f79b8cec1,
+      type: 2}
+  - m_GUID: a71e5669c83de464e8288321166f2e29
+    m_Address: Images3/Ice_K3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 2800000, guid: a71e5669c83de464e8288321166f2e29, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: a71e5669c83de464e8288321166f2e29, type: 3}
+  - m_GUID: b9f13d0c4a3d445a9aef43cd34045fec
+    m_Address: Images3/Ice_K2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 2800000, guid: b9f13d0c4a3d445a9aef43cd34045fec, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: b9f13d0c4a3d445a9aef43cd34045fec, type: 3}
+  - m_GUID: e0f4457944c7a4b53b06220cd2c4d14c
+    m_Address: Images3/Ice_ster
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 2800000, guid: e0f4457944c7a4b53b06220cd2c4d14c, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: e0f4457944c7a4b53b06220cd2c4d14c, type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: aaf7d6f3e4e0d43e5bb100590ca142fc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4ca0d20f837354513afdfe23e986266c, type: 2}
+    - {fileID: 11400000, guid: 8729dcef13d8843c596b42ec72bc8360, type: 2}

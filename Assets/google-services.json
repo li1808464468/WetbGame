@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "814042146861",
+    "firebase_url": "https://jewelpuzzle-7e247.firebaseio.com",
+    "project_id": "jewelpuzzle-7e247",
+    "storage_bucket": "jewelpuzzle-7e247.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814042146861:android:36168d624870b6f8fab0a4",
+        "android_client_info": {
+          "package_name": "com.sportbrain.jewelpuzzle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814042146861-pmi5ifoo3u1l7m24cu4bv2k395p3upjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJeF0qHN62tXmVrq2zVae58y9OywDvtY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814042146861-pmi5ifoo3u1l7m24cu4bv2k395p3upjg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "814042146861-6s1chcghk73c42uoq89smhi92msga7rd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sweet.sliding"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

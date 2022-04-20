@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SecondChance_Scene2
+  m_EditorClassIdentifier: 
+  m_GroupName: SecondChance_Scene2
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4b222b2aa56e04671a28ae8490cf5d56
+  m_SerializeEntries:
+  - m_GUID: b25913a0683f247ee9a609649228f3ff
+    m_Address: Prefabs_Scene2/SecondChanceDialog
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 8290577609464530727, guid: b25913a0683f247ee9a609649228f3ff,
+      type: 3}
+    m_TargetAsset: {fileID: 8290577609464530727, guid: b25913a0683f247ee9a609649228f3ff,
+      type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: aaf7d6f3e4e0d43e5bb100590ca142fc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b838d216e07cb4a729e61a7820edd42a, type: 2}
+    - {fileID: 11400000, guid: a80d5f090b1a14e398349dc41c842b22, type: 2}

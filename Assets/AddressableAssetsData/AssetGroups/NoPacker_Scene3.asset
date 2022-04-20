@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: NoPacker_Scene3
+  m_EditorClassIdentifier: 
+  m_GroupName: NoPacker_Scene3
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0448010651a88425cbc84b7c22bfe90c
+  m_SerializeEntries:
+  - m_GUID: 09d767eeba8d341f293a2b45f33c70c9
+    m_Address: Prefabs_Scene3/BoardEffItem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 3639915355687363318, guid: 09d767eeba8d341f293a2b45f33c70c9,
+      type: 3}
+    m_TargetAsset: {fileID: 3639915355687363318, guid: 09d767eeba8d341f293a2b45f33c70c9,
+      type: 3}
+  - m_GUID: 9a17a77e99b7d4791bc91e1c8ad2828c
+    m_Address: Prefabs_Scene3/DeadWarning
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 8122795157437767823, guid: 9a17a77e99b7d4791bc91e1c8ad2828c,
+      type: 3}
+    m_TargetAsset: {fileID: 8122795157437767823, guid: 9a17a77e99b7d4791bc91e1c8ad2828c,
+      type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: aaf7d6f3e4e0d43e5bb100590ca142fc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 558f6dde826d34cd5947d3e7d65f4fa4, type: 2}
+    - {fileID: 11400000, guid: 7f1208d439a344bef81bd31645bae7f1, type: 2}

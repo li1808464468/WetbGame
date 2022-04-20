@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ComboAndScore_Scene3
+  m_EditorClassIdentifier: 
+  m_GroupName: ComboAndScore_Scene3
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 41aed18e48fe049abae3205bc65417d5
+  m_SerializeEntries:
+  - m_GUID: 824e08d493c34492cb845ae50a06fe7a
+    m_Address: Images3/Eff/ComboScore
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.U2D.SpriteAtlas, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 4343727234628468602, guid: 824e08d493c34492cb845ae50a06fe7a,
+      type: 2}
+    m_TargetAsset: {fileID: 4343727234628468602, guid: 824e08d493c34492cb845ae50a06fe7a,
+      type: 2}
+  - m_GUID: ec3426816f9f84397878abb03352e54e
+    m_Address: Prefabs_Scene3/ScoreEff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 3719853676761478904, guid: ec3426816f9f84397878abb03352e54e,
+      type: 3}
+    m_TargetAsset: {fileID: 3719853676761478904, guid: ec3426816f9f84397878abb03352e54e,
+      type: 3}
+  - m_GUID: fd662bd5c8ff04a90839014b4ace7557
+    m_Address: Prefabs_Scene3/ComboEff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 4182610483546808616, guid: fd662bd5c8ff04a90839014b4ace7557,
+      type: 3}
+    m_TargetAsset: {fileID: 4182610483546808616, guid: fd662bd5c8ff04a90839014b4ace7557,
+      type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: aaf7d6f3e4e0d43e5bb100590ca142fc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d0783fba01cff4332b46577c2797e606, type: 2}
+    - {fileID: 11400000, guid: 07b91db3763ee48e5ac22c983d382f32, type: 2}

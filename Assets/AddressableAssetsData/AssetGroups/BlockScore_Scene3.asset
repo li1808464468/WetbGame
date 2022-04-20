@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: BlockScore_Scene3
+  m_EditorClassIdentifier: 
+  m_GroupName: BlockScore_Scene3
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a832b89dabea84fc58789a9818a9d7a7
+  m_SerializeEntries:
+  - m_GUID: 2d215bd079bd34a04ad7f05fad4f6c52
+    m_Address: Prefabs_Scene3/BlockScoreEff1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 7388800391771540232, guid: 2d215bd079bd34a04ad7f05fad4f6c52,
+      type: 3}
+    m_TargetAsset: {fileID: 7388800391771540232, guid: 2d215bd079bd34a04ad7f05fad4f6c52,
+      type: 3}
+  - m_GUID: a9c05e4a928154ff8bac6f04b7aef09a
+    m_Address: Prefabs_Scene3/BlockScoreEff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - must
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 7388800391771540232, guid: a9c05e4a928154ff8bac6f04b7aef09a,
+      type: 3}
+    m_TargetAsset: {fileID: 7388800391771540232, guid: a9c05e4a928154ff8bac6f04b7aef09a,
+      type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: aaf7d6f3e4e0d43e5bb100590ca142fc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b82133bc8c89f4e98ae9f8fecfac0a4c, type: 2}
+    - {fileID: 11400000, guid: 1306139daa03a472fa861abdc6dd40ac, type: 2}
