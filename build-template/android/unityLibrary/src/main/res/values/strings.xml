@@ -1,9 +1,0 @@
-<resources>
-    <string name="game_view_content_description">Game view</string>
-    <string name="app_name" translatable="false">Jewel Puzzle</string>
-    <string name="facebook_app_id" translatable="false">484012528792863</string>
-    <string name="fb_login_protocol_scheme" translatable="false">fb484012528792863</string>
-    <string name="setting_device_not_support_message" translatable="false">Your device does not support this.</string>
-    <string name="continue_read" translatable="false">We’ve embraced a few changes in our Privacy Policy to make it even easier to understand what data we collect, how it’s processed and the controls you have. You can find more details about our updates for new European data protection laws (GDPR) by reading our Privacy Policy. By continuing, you are confirming that you are over the age of 16 or under guidance of the holder of your parental responsibility and would like to have personalized using experiences.</string>
-    <string name="agree_thx" translatable="false">We’ve updated our Privacy Policy and Terms to provide a clearer understanding of how we collect and process data. In our updates, you can get more details about our materials for the new European data protection laws (GDPR), and also details on how our partners provide personalized advertising experience. By agreeing to our policy updates, you’re confirming that you are over the age of 16 or under guidance of the holder of your parental responsibility and would prefer a personalized using experience.</string>
-</resources>

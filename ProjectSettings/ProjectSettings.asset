@@ -801,7 +801,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     1: mopub_manager
     4: mopub_manager;LOG
-    7: 
+    7: LOG
   platformArchitecture: {}
   scriptingBackend:
     Android: 1
