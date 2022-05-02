@@ -13,9 +13,9 @@ namespace Manager
     {
         private static GameObject _audioGameObject;
         
-        private static string _musicEnabled = "on";
+        private static string _musicEnabled = "off";
         private static float _musicVolume = 1.0f;
-        private static string _soundEnabled = "on";
+        private static string _soundEnabled = "off";
         private static float _soundVolume = 1.0f;
 
         private static AudioSource _musicAudioSource;
@@ -30,20 +30,20 @@ namespace Manager
             _usedAudioSources = new List<AudioSource>();
             _audioClips = new Dictionary<string, AudioClip>();
             
-            if (ManagerLocalData.HaveData(ManagerLocalData.MUSIC_ON_OFF))
-            {
-                _musicEnabled = ManagerLocalData.GetStringData(ManagerLocalData.MUSIC_ON_OFF);
-                _musicVolume = ManagerLocalData.GetFloatData(ManagerLocalData.MUSIC_VOLUME);
-                _soundEnabled = ManagerLocalData.GetStringData(ManagerLocalData.SOUND_ON_OFF);
-                _soundVolume = ManagerLocalData.GetFloatData(ManagerLocalData.SOUND_VOLUME);
-            }
-            else
-            {
-                SetMusicOn(true);
-                SetSoundOn(true);
-                SetMusicVolume(_musicVolume);
-                SetSoundVolume(_soundVolume);
-            }
+//            if (ManagerLocalData.HaveData(ManagerLocalData.MUSIC_ON_OFF))
+//            {
+//                _musicEnabled = ManagerLocalData.GetStringData(ManagerLocalData.MUSIC_ON_OFF);
+//                _musicVolume = ManagerLocalData.GetFloatData(ManagerLocalData.MUSIC_VOLUME);
+//                _soundEnabled = ManagerLocalData.GetStringData(ManagerLocalData.SOUND_ON_OFF);
+//                _soundVolume = ManagerLocalData.GetFloatData(ManagerLocalData.SOUND_VOLUME);
+//            }
+//            else
+//            {
+//                SetMusicOn();
+//                SetSoundOn();
+//                SetMusicVolume(_musicVolume);
+//                SetSoundVolume(_soundVolume);
+//            }
 
             _audioGameObject = rootNode;
         }

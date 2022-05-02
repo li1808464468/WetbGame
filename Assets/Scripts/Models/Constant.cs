@@ -18,8 +18,8 @@ namespace Models
         public const int Hang = 10;
         public const int Lie = 8;
 
-        public static int BlockWidth = 120;
-        public static int BlockHeight = 120;
+        public static int BlockWidth = 112;
+        public static int BlockHeight = 112;
 
         public static float WRatio = 1f;
         public static float HRatio = 1f;

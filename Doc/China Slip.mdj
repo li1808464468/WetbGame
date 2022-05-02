@@ -1,0 +1,316 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAGAgCT0vYqB2QQ=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAGAgCT0vIp/j6k="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGAgCT0vYqC2YQ=",
+									"_parent": {
+										"$ref": "AAAAAAGAgCT0vYqB2QQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGAgCT0vIp/j6k="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGAgCT0vYqDuaE=",
+											"_parent": {
+												"$ref": "AAAAAAGAgCT0vYqC2YQ="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGAgCT0vYqECHE=",
+											"_parent": {
+												"$ref": "AAAAAAGAgCT0vYqC2YQ="
+											},
+											"font": "Arial;13;1",
+											"left": 357,
+											"top": 199,
+											"width": 222.82177734375,
+											"height": 13,
+											"text": "EffectController"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGAgCT0vYqFkK8=",
+											"_parent": {
+												"$ref": "AAAAAAGAgCT0vYqC2YQ="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 78.28593444824219,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGAgCT0vYqGG3I=",
+											"_parent": {
+												"$ref": "AAAAAAGAgCT0vYqC2YQ="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 352,
+									"top": 192,
+									"width": 232.82177734375,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGAgCT0vYqDuaE="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGAgCT0vYqECHE="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGAgCT0vYqFkK8="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGAgCT0vYqGG3I="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGAgCT0vYqHnA0=",
+									"_parent": {
+										"$ref": "AAAAAAGAgCT0vYqB2QQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGAgCT0vIp/j6k="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGAgCVhlYqtjXE=",
+											"_parent": {
+												"$ref": "AAAAAAGAgCT0vYqHnA0="
+											},
+											"model": {
+												"$ref": "AAAAAAGAgCVhhIqq8mk="
+											},
+											"font": "Arial;13;0",
+											"left": 357,
+											"top": 222,
+											"width": 222.82177734375,
+											"height": 13,
+											"text": "+效果类",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGAgCW3boq77j8=",
+											"_parent": {
+												"$ref": "AAAAAAGAgCT0vYqHnA0="
+											},
+											"model": {
+												"$ref": "AAAAAAGAgCW3ZYq4NYc="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 357,
+											"top": 237,
+											"width": 150.6689453125,
+											"height": 13,
+											"text": "+Port1",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGAgCXl6IrJcCc=",
+											"_parent": {
+												"$ref": "AAAAAAGAgCT0vYqHnA0="
+											},
+											"model": {
+												"$ref": "AAAAAAGAgCXl4IrG3lE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 357,
+											"top": 237,
+											"width": 150.6689453125,
+											"height": 13,
+											"text": "+Attribute1",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 352,
+									"top": 217,
+									"width": 232.82177734375,
+									"height": 23
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGAgCT0vYqIvpI=",
+									"_parent": {
+										"$ref": "AAAAAAGAgCT0vYqB2QQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGAgCT0vIp/j6k="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGAgCYvt4rQyWM=",
+											"_parent": {
+												"$ref": "AAAAAAGAgCT0vYqIvpI="
+											},
+											"model": {
+												"$ref": "AAAAAAGAgCYvsYrNsA4="
+											},
+											"font": "Arial;13;0",
+											"left": 357,
+											"top": 245,
+											"width": 222.82177734375,
+											"height": 13,
+											"text": "+Top 动画，加载播放效果都在这里面()",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 352,
+									"top": 240,
+									"width": 232.82177734375,
+									"height": 23
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGAgCT0vYqJv9Y=",
+									"_parent": {
+										"$ref": "AAAAAAGAgCT0vYqB2QQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGAgCT0vIp/j6k="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGAgCT0voqKzMw=",
+									"_parent": {
+										"$ref": "AAAAAAGAgCT0vYqB2QQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGAgCT0vIp/j6k="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 381,
+									"top": 192,
+									"width": 130.6689453125,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 352,
+							"top": 192,
+							"width": 232.82177734375,
+							"height": 76,
+							"nameCompartment": {
+								"$ref": "AAAAAAGAgCT0vYqC2YQ="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGAgCT0vYqHnA0="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGAgCT0vYqIvpI="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGAgCT0vYqJv9Y="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGAgCT0voqKzMw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGAgCT0vIp/j6k=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "EffectController",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGAgCVhhIqq8mk=",
+							"_parent": {
+								"$ref": "AAAAAAGAgCT0vIp/j6k="
+							},
+							"name": "效果类"
+						},
+						{
+							"_type": "UMLPort",
+							"_id": "AAAAAAGAgCW3ZYq4NYc=",
+							"_parent": {
+								"$ref": "AAAAAAGAgCT0vIp/j6k="
+							},
+							"name": "Port1",
+							"type": ""
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGAgCXl4IrG3lE=",
+							"_parent": {
+								"$ref": "AAAAAAGAgCT0vIp/j6k="
+							},
+							"name": "Attribute1",
+							"type": ""
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGAgCYvsYrNsA4=",
+							"_parent": {
+								"$ref": "AAAAAAGAgCT0vIp/j6k="
+							},
+							"name": "Top 动画，加载播放效果都在这里面"
+						}
+					]
+				}
+			]
+		}
+	]
+}

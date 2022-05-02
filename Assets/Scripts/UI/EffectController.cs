@@ -472,6 +472,7 @@ namespace UI
 
         public async void LoadResAsync_manRes()
         {
+            return;
             if (Constant.SceneVersion == "3")
             {
                 var manMat = await Tools.LoadAssetAsync<Material>("man_mat");
@@ -3070,6 +3071,7 @@ namespace UI
             
             if (Constant.SceneVersion == "3")
             {
+                return;
                 var manObj = topUI.transform.Find("levelGroup").transform.Find("manBg").transform.Find("man");
                 if (manObj != null)
                 {

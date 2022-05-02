@@ -42,7 +42,7 @@ namespace UI
             Statistics.InitData();
             ManagerAd.InitData();
             
-            SetBlockGroup();
+//            SetBlockGroup();
             UpdateDragDelta();
             SetDifficulty();
             SetLevelText();
@@ -65,8 +65,8 @@ namespace UI
 
 #if UNITY_EDITOR
             Constant.IceBlockSwitch = true;
-            Constant.SpecialGoldSwitch = true;
-            Constant.SpecialBronzeSwitch = true;
+//            Constant.SpecialGoldSwitch = true;
+//            Constant.SpecialBronzeSwitch = true;
             Constant.SpecialGoldEffWeight = "1:0:0";
             Constant.SecondChanceEnabled = true;
             Constant.LevelProgressVersion = "1";
@@ -159,6 +159,7 @@ namespace UI
 
         void UpdateServerData()
         {
+            return;
 #if (UNITY_IOS || UNITY_ANDROID) && !UNITY_EDITOR
             var remoteConfig = JObject.Parse(PlatformBridge.getConfigMap("Application.gameConfig"));
             DebugEx.Log("remoteConfig");
@@ -223,9 +224,9 @@ namespace UI
                     : Constant.SecondChanceScore;
                 
                 //道具开关
-                Constant.PropSwitch = remoteConfig.ContainsKey("propSwitch")
-                    ? (bool) remoteConfig["propSwitch"]
-                    : Constant.PropSwitch;
+//                Constant.PropSwitch = remoteConfig.ContainsKey("propSwitch")
+//                    ? (bool) remoteConfig["propSwitch"]
+//                    : Constant.PropSwitch;
                 
                 //单局道具使用次数
                 Constant.PropUsedCount = remoteConfig.ContainsKey("propUsedCount")
@@ -233,20 +234,20 @@ namespace UI
                     : Constant.PropUsedCount;
 
                 //彩色开关
-                Constant.SpecialRainbowSwitch = remoteConfig.ContainsKey("specialRainbowSwitch")
-                    ? (bool) remoteConfig["specialRainbowSwitch"]
-                    : Constant.SpecialRainbowSwitch;
-
-                //青铜开关
-                Constant.SpecialBronzeSwitch = remoteConfig.ContainsKey("specialBronzeSwitch")
-                    ? (bool) remoteConfig["specialBronzeSwitch"]
-                    : Constant.SpecialBronzeSwitch;
-
-                //金色开关
-                Constant.SpecialGoldSwitch = remoteConfig.ContainsKey("specialGoldSwitch")
-                    ? (bool) remoteConfig["specialGoldSwitch"]
-                    : Constant.SpecialGoldSwitch;
-                
+//                Constant.SpecialRainbowSwitch = remoteConfig.ContainsKey("specialRainbowSwitch")
+//                    ? (bool) remoteConfig["specialRainbowSwitch"]
+//                    : Constant.SpecialRainbowSwitch;
+//
+//                //青铜开关
+//                Constant.SpecialBronzeSwitch = remoteConfig.ContainsKey("specialBronzeSwitch")
+//                    ? (bool) remoteConfig["specialBronzeSwitch"]
+//                    : Constant.SpecialBronzeSwitch;
+//
+//                //金色开关
+//                Constant.SpecialGoldSwitch = remoteConfig.ContainsKey("specialGoldSwitch")
+//                    ? (bool) remoteConfig["specialGoldSwitch"]
+//                    : Constant.SpecialGoldSwitch;
+//                
                 //青铜随机概率
                 Constant.SpecialBronzeRandom = remoteConfig.ContainsKey("specialBronzeRandom")
                     ? (string) remoteConfig["specialBronzeRandom"]
