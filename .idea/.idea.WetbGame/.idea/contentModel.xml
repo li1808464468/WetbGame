@@ -189,8 +189,6 @@
             <e p="BlockItem.cs" t="Include" />
             <e p="EffectController.cs" t="Include" />
             <e p="GameOverDialog.cs" t="Include" />
-            <e p="GameOverDialogA.cs" t="Include" />
-            <e p="GameOverDogGroup.cs" t="Include" />
             <e p="GamePlayDialog.cs" t="Include" />
             <e p="GuideEff.cs" t="Include" />
             <e p="IceTip.cs" t="Include" />

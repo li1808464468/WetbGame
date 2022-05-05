@@ -34,49 +34,49 @@ namespace UI
         {
             GameObject.Find("topMask").GetComponent<TopMask>().HideLight();
             
-            string temSwitchFlag =PlatformBridge.getESIDandSwitchFlag();
-            if (temSwitchFlag.Split('|')[1] == "off")
-            {
-                ManagerLocalData.SetStringData(ManagerLocalData.VIBRATE_SWITCH,"dontShow");
-                Debug.Log("SettingDialog" + ManagerLocalData.GetStringData(ManagerLocalData.VIBRATE_SWITCH));
-            }
-            else if(ManagerLocalData.GetStringData(ManagerLocalData.VIBRATE_SWITCH) == "dontShow")
-            {
-                ManagerLocalData.SetStringData(ManagerLocalData.VIBRATE_SWITCH,"on");
-                Debug.Log("SettingDialog" + ManagerLocalData.GetStringData(ManagerLocalData.VIBRATE_SWITCH));
-            }
-
-            if (ManagerLocalData.GetStringData(ManagerLocalData.VIBRATE_SWITCH) == "dontShow")
-            {
-                Debug.Log("SettingDialog1 " + ManagerLocalData.GetStringData(ManagerLocalData.VIBRATE_SWITCH));
-                vibratorLine.SetActive(false);
-                Vector3 tem = new Vector3();
-                tem = btnReplay.transform.localPosition;
-                tem.y = -41.2f;
-                btnReplay.transform.localPosition = tem;
-                tem = btnPrivacy.transform.localPosition;
-                tem.y = -203.2f;
-                btnPrivacy.transform.localPosition = tem;
-                bG.GetComponent<RectTransform>().sizeDelta = new Vector2(890, 1000);
-            }
-            else
-            {
-                Debug.Log("SettingDialog1 " + ManagerLocalData.GetStringData(ManagerLocalData.VIBRATE_SWITCH));
-                vibratorLine.SetActive(true);
-                Vector3 tem = new Vector3();
-                tem = btnReplay.transform.localPosition;
-                tem.y = -162.2f;
-                btnReplay.transform.localPosition = tem;
-                tem = btnPrivacy.transform.localPosition;
-                tem.y = -307.9f;
-                btnPrivacy.transform.localPosition = tem;
-                bG.GetComponent<RectTransform>().sizeDelta = new Vector2(890, 1099);
-            }
-            //震动默认开关
-            if (!ManagerLocalData.HaveData(ManagerLocalData.VIBRATE_SWITCH))
-            {
-                ManagerLocalData.SetStringData(ManagerLocalData.VIBRATE_SWITCH, "on");
-            }
+//            string temSwitchFlag =PlatformBridge.getESIDandSwitchFlag();
+//            if (temSwitchFlag.Split('|')[1] == "off")
+//            {
+//                ManagerLocalData.SetStringData(ManagerLocalData.VIBRATE_SWITCH,"dontShow");
+//                Debug.Log("SettingDialog" + ManagerLocalData.GetStringData(ManagerLocalData.VIBRATE_SWITCH));
+//            }
+//            else if(ManagerLocalData.GetStringData(ManagerLocalData.VIBRATE_SWITCH) == "dontShow")
+//            {
+//                ManagerLocalData.SetStringData(ManagerLocalData.VIBRATE_SWITCH,"on");
+//                Debug.Log("SettingDialog" + ManagerLocalData.GetStringData(ManagerLocalData.VIBRATE_SWITCH));
+//            }
+//
+//            if (ManagerLocalData.GetStringData(ManagerLocalData.VIBRATE_SWITCH) == "dontShow")
+//            {
+//                Debug.Log("SettingDialog1 " + ManagerLocalData.GetStringData(ManagerLocalData.VIBRATE_SWITCH));
+//                vibratorLine.SetActive(false);
+//                Vector3 tem = new Vector3();
+//                tem = btnReplay.transform.localPosition;
+//                tem.y = -41.2f;
+//                btnReplay.transform.localPosition = tem;
+//                tem = btnPrivacy.transform.localPosition;
+//                tem.y = -203.2f;
+//                btnPrivacy.transform.localPosition = tem;
+//                bG.GetComponent<RectTransform>().sizeDelta = new Vector2(890, 1000);
+//            }
+//            else
+//            {
+//                Debug.Log("SettingDialog1 " + ManagerLocalData.GetStringData(ManagerLocalData.VIBRATE_SWITCH));
+//                vibratorLine.SetActive(true);
+//                Vector3 tem = new Vector3();
+//                tem = btnReplay.transform.localPosition;
+//                tem.y = -162.2f;
+//                btnReplay.transform.localPosition = tem;
+//                tem = btnPrivacy.transform.localPosition;
+//                tem.y = -307.9f;
+//                btnPrivacy.transform.localPosition = tem;
+//                bG.GetComponent<RectTransform>().sizeDelta = new Vector2(890, 1099);
+//            }
+//            //震动默认开关
+//            if (!ManagerLocalData.HaveData(ManagerLocalData.VIBRATE_SWITCH))
+//            {
+//                ManagerLocalData.SetStringData(ManagerLocalData.VIBRATE_SWITCH, "on");
+//            }
             ResetBtnStatus();
         }
 

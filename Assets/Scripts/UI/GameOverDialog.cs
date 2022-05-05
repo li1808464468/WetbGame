@@ -62,33 +62,34 @@ namespace UI
             var delayTime = 0f;
             if (Constant.SceneVersion == "3")
             {
-                StartCoroutine(Delay.Run(() =>
-                {
-                    var man = groupObj.transform.Find("man");
-                    man.gameObject.SetActive(false);
-                    if (man != null && man.GetComponent<SkeletonGraphic>() != null && man.GetComponent<SkeletonGraphic>().AnimationState != null)
-                    {
-                        man.GetComponent<SkeletonGraphic>().AnimationState.Complete += delegate(TrackEntry entry)
-                        {
-                            if (entry.ToString() == "JS_1")
-                            {
-                                man.GetComponent<SkeletonGraphic>().AnimationState.SetAnimation(0, "JS_daiji1", false);
-                            } else if (entry.ToString() == "JS_daiji1")
-                            {
-                                man.GetComponent<SkeletonGraphic>().AnimationState.SetAnimation(0, "JS_daiji", true);
-                                StartCoroutine(Delay.Run(() =>
-                                {
-                                    man.GetComponent<SkeletonGraphic>().AnimationState.SetAnimation(0, "JS_daiji1", false);
-                                }, 8));
-                            }
-                        };
-                    
-                        man.GetComponent<SkeletonGraphic>().AnimationState.SetAnimation(0, "JS_1", false);
-                        man.gameObject.SetActive(true);
-                    }
-                }, 0));
                 
-                delayTime = 0.25f;
+//                StartCoroutine(Delay.Run(() =>
+//                {
+//                    var man = groupObj.transform.Find("man");
+//                    man.gameObject.SetActive(false);
+//                    if (man != null && man.GetComponent<SkeletonGraphic>() != null && man.GetComponent<SkeletonGraphic>().AnimationState != null)
+//                    {
+//                        man.GetComponent<SkeletonGraphic>().AnimationState.Complete += delegate(TrackEntry entry)
+//                        {
+//                            if (entry.ToString() == "JS_1")
+//                            {
+//                                man.GetComponent<SkeletonGraphic>().AnimationState.SetAnimation(0, "JS_daiji1", false);
+//                            } else if (entry.ToString() == "JS_daiji1")
+//                            {
+//                                man.GetComponent<SkeletonGraphic>().AnimationState.SetAnimation(0, "JS_daiji", true);
+//                                StartCoroutine(Delay.Run(() =>
+//                                {
+//                                    man.GetComponent<SkeletonGraphic>().AnimationState.SetAnimation(0, "JS_daiji1", false);
+//                                }, 8));
+//                            }
+//                        };
+//                    
+//                        man.GetComponent<SkeletonGraphic>().AnimationState.SetAnimation(0, "JS_1", false);
+//                        man.gameObject.SetActive(true);
+//                    }
+//                }, 0));
+//                
+//                delayTime = 0.25f;
             }
 
             StartCoroutine(Delay.Run(() =>
@@ -211,46 +212,6 @@ namespace UI
                         StartCoroutine(Delay.Run(
                             () => { btnAgain.GetComponent<Animator>().Play("btnPlayAgainBreath", 0, 0); },
                             2.25f));
-                    }
-                }
-                else
-                {
-                    var dogGroupObj = Instantiate(dogGroup, groupObj.transform, false);
-                    dogGroupObj.transform.localPosition = new Vector2(0, 300);
-                    dogGroupObj.transform.localScale = new Vector2(2, 2);
-                    dogGroupObj.GetComponent<GameOverDogGroup>()
-                        .SetText(Player.IsNewBestStatus() ? "newBest" : "normal");
-                    dogGroupObj.GetComponent<GameOverDogGroup>().ShowStarEff(Player.ScoreToStar(Player.GetCurScore()));
-                    dogGroupObj.GetComponent<GameOverDogGroup>().SetEndCallback(() =>
-                    {
-                        StartCoroutine(Delay.Run(() =>
-                        {
-                            btnAgain.SetActive(true);
-                            btnAgain.GetComponent<CanvasGroup>().alpha = 0;
-                            btnAgain.GetComponent<CanvasGroup>().DOFade(1, 0.5f);
-                        }, 0.5f));
-                    });
-                    
-                    curScore.text = "0";
-                    newBestScore.text = "0";
-
-                    if (Player.IsNewBestStatus())
-                    {
-                        curScore.gameObject.SetActive(false);
-                    }
-                    else
-                    {
-                        newBestScore.gameObject.SetActive(false);
-                    }
-
-                    if (Player.IsNewBestStatus())
-                    {
-                        Tools.NumChange(newBestScore, Player.GetCurScore(), 1,
-                            () => { ManagerAudio.PlaySound("numChange"); });
-                    }
-                    else
-                    {
-                        Tools.NumChange(curScore, Player.GetCurScore(), 1, () => { ManagerAudio.PlaySound("numChange"); });
                     }
                 }
                 

@@ -46,16 +46,20 @@ SpriteAtlas:
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: d66f7ce2fc6b64f388f9a4b3f073bb1a, type: 3}
   - {fileID: 21300000, guid: 37e7d50389fb1427cb7c41e78b9409a0, type: 3}
+  - {fileID: 21300000, guid: b927f094b12e14270a735822d4a3cd0f, type: 3}
   - {fileID: 21300000, guid: 140c41ba0b89b43e0833e863b055b7a4, type: 3}
   - {fileID: 21300000, guid: f2d1cd9ced40c4d3da37eead4919f1dd, type: 3}
-  - {fileID: 21300000, guid: b207839e461e842aabfe650b663b6a42, type: 3}
+  - {fileID: 21300000, guid: ebce4c6e156d9436ca7b21ff096332cd, type: 3}
   - {fileID: 21300000, guid: db01ea4ff2a894ea4be895ea88c04a96, type: 3}
   m_PackedSpriteNamesToIndex:
+  - img_gameover_bg
   - btn_playAgain
+  - img_title_line
   - labelImgf_newBest
   - title_result
-  - light
+  - img_gameover_title
   - title_best
   m_Tag: 0
   m_IsVariant: 0

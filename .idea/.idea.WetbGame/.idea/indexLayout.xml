@@ -64,7 +64,6 @@
       <Path>Doc</Path>
       <Path>Library</Path>
       <Path>ServerData</Path>
-      <Path>Temp</Path>
       <Path>build</Path>
       <Path>obj</Path>
     </explicitExcludes>

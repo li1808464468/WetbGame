@@ -2357,12 +2357,7 @@ namespace UI
         {
             if (!ManagerDialog.IsExistDialogRes("GameOverDialog"))
             {
-                var dialogAddressableName = "Prefabs_Scene2/GameOverDialogA";
-                if (Constant.SceneVersion == "3")
-                {
-                    dialogAddressableName = "Prefabs_Scene3/GameOverDialog";
-                }
-
+                var dialogAddressableName = "Prefabs_Scene3/GameOverDialog";
                 var tmpPrefab = await Tools.LoadAssetAsync<GameObject>(dialogAddressableName);
                 ManagerDialog.AddDialog("GameOverDialog", tmpPrefab);
             }

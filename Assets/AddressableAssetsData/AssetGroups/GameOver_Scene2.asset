@@ -16,29 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: a1e7342ced1454b2b9275c313d1309e9
-  m_SerializeEntries:
-  - m_GUID: 6c7d3b50126ca4729b2aa2a0c685b842
-    m_Address: Prefabs_Scene2/GameOverDialogA
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - must
-    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    m_MainAsset: {fileID: 8290577609464530727, guid: 6c7d3b50126ca4729b2aa2a0c685b842,
-      type: 3}
-    m_TargetAsset: {fileID: 8290577609464530727, guid: 6c7d3b50126ca4729b2aa2a0c685b842,
-      type: 3}
-  - m_GUID: 87071bc4a92c14a3ab793142598880af
-    m_Address: Prefabs_Scene2/GameOverDogGroup
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - must
-    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    m_MainAsset: {fileID: 4228918701746064347, guid: 87071bc4a92c14a3ab793142598880af,
-      type: 3}
-    m_TargetAsset: {fileID: 4228918701746064347, guid: 87071bc4a92c14a3ab793142598880af,
-      type: 3}
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: aaf7d6f3e4e0d43e5bb100590ca142fc, type: 2}
   m_SchemaSet:

@@ -22,41 +22,21 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - must
-    m_mainAssetType: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    m_MainAsset: {fileID: 2100000, guid: 732faf0689cd94f2e9de08acec9f36af, type: 2}
-    m_TargetAsset: {fileID: 2100000, guid: 732faf0689cd94f2e9de08acec9f36af, type: 2}
   - m_GUID: a1cfbb75fcf1f42e88f9e75c0adaa1ba
     m_Address: man_sket
     m_ReadOnly: 0
     m_SerializedLabels:
     - must
-    m_mainAssetType: Spine.Unity.SkeletonDataAsset, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    m_MainAsset: {fileID: 11400000, guid: a1cfbb75fcf1f42e88f9e75c0adaa1ba, type: 2}
-    m_TargetAsset: {fileID: 11400000, guid: a1cfbb75fcf1f42e88f9e75c0adaa1ba, type: 2}
   - m_GUID: bcd4ef2fecb5244e191fb7e5bcfd7fc6
     m_Address: man
     m_ReadOnly: 0
     m_SerializedLabels:
     - must
-    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    m_MainAsset: {fileID: 2478142546469656738, guid: bcd4ef2fecb5244e191fb7e5bcfd7fc6,
-      type: 3}
-    m_TargetAsset: {fileID: 2478142546469656738, guid: bcd4ef2fecb5244e191fb7e5bcfd7fc6,
-      type: 3}
   - m_GUID: e224981b64a574e578350db2f9cf08c0
     m_Address: Prefabs_Scene3/GameOverDialog
     m_ReadOnly: 0
     m_SerializedLabels:
     - must
-    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    m_MainAsset: {fileID: 8290577609464530727, guid: e224981b64a574e578350db2f9cf08c0,
-      type: 3}
-    m_TargetAsset: {fileID: 8290577609464530727, guid: e224981b64a574e578350db2f9cf08c0,
-      type: 3}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: aaf7d6f3e4e0d43e5bb100590ca142fc, type: 2}
   m_SchemaSet:

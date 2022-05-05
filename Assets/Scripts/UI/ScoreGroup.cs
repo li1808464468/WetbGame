@@ -30,7 +30,7 @@ namespace UI
             if (Constant.SceneVersion == "3")
             {
                 _barProgressHeight = 40;
-                groupNewBest.transform.Find("bgEff").gameObject.SetActive(false);
+//                groupNewBest.transform.Find("bgEff").gameObject.SetActive(false);
             }
         }
         
@@ -69,7 +69,7 @@ namespace UI
             
             groupNewBest.SetActive(Player.IsNewBestStatus());
             groupNormal.SetActive(!Player.IsNewBestStatus());
-            groupBest.transform.Find("newBg").gameObject.SetActive(Player.IsNewBestStatus());
+//            groupBest.transform.Find("newBg").gameObject.SetActive(Player.IsNewBestStatus());
             
             //分数更新
             if (showEff)

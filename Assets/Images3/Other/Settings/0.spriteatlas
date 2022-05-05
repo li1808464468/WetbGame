@@ -46,28 +46,20 @@ SpriteAtlas:
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: d7a9bf2102ec4481398c93b9ee62ba44, type: 3}
-  - {fileID: 21300000, guid: 31dfe1f1ed1bc4b1990356d15921b567, type: 3}
   - {fileID: 21300000, guid: 004717f3259ae42dfa73bb7da98aa2ec, type: 3}
-  - {fileID: 21300000, guid: 1a67aa24cd4774aee944bf7ab652f313, type: 3}
   - {fileID: 21300000, guid: 7e6947c65e78f4dad8d3f19380756430, type: 3}
   - {fileID: 21300000, guid: 218d617b2891341edad75ce5c6be4dad, type: 3}
+  - {fileID: 21300000, guid: d520c2bc2283941ce82504f0f753ff60, type: 3}
   - {fileID: 21300000, guid: 1f3ce78d320124fd18cb4e2f41b046f3, type: 3}
-  - {fileID: 21300000, guid: 6b47429d91ca64dab8f469bd582a5fd1, type: 3}
   - {fileID: 21300000, guid: f7e74dce2afe540f8aa6a67cee472fd7, type: 3}
   - {fileID: 21300000, guid: f751282f103224297b66bf178760fe1a, type: 3}
-  - {fileID: 21300000, guid: ec05119f612274af28e18d35ea6c0593, type: 3}
   m_PackedSpriteNamesToIndex:
-  - line
-  - sound
   - setting_background
-  - music
   - btn_off
   - btn_on
+  - img_setting_buttong_bg
   - close
-  - setting
   - policy_button
   - replay_button
-  - shock
   m_Tag: 0
   m_IsVariant: 0
